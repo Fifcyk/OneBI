@@ -1,0 +1,25 @@
+.oneBIbgColor {
+    background-color: #75448D;
+}
+.oneBIfgColor {
+    color: #75448D;
+}
+.background {
+    background: url('background.png');
+    min-height: 640px;
+}
+.fgWhite {
+    color: #ffffff;
+}
+.margin1 {
+    margin: 1px;
+}
+.margin5 {
+     margin: 5px;
+ }
+.margin10 {
+    margin: 10px;
+}
+.margin-bottom2 {
+    margin-bottom: 2px;
+}
