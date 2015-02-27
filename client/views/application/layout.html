@@ -6,27 +6,16 @@
     <div class="row" style="height: 50px;"></div>
         <div class="row">
             <div class="col-md-1">
-                <div class="row margin-bottom2" style="background-color: #ffffff; text-align: center">
-                    <h5>NASZE PODEJŚCIE</h5>
-                </div>
-                <div class="row margin-bottom2" style="background-color: #ffffff; text-align: center">
-                    <h5>AKTUALNOŚCI</h5>
-                </div>
-                <div class="row margin-bottom2" style="background-color: #ffffff; text-align: center">
-                    <h5>USŁUGI</h5>
-                </div>
-                <div class="row margin-bottom2" style="background-color: #ffffff; text-align: center">
-                    <h5>PARTNERZY</h5>
-                </div>
-                <div class="row margin-bottom2" style="background-color: #ffffff; text-align: center">
-                    <h5>PRACA</h5>
-                </div>
-                <div class="row margin-bottom2" style="background-color: #ffffff; text-align: center">
-                    <h5>KONTAKT</h5>
+                <div class="list-group" id="item">
+                    <a class="list-group-item" href="{{pathFor 'naszePodejscie'}}" name="item"><p class="list-group-item-text">Nasze podejście</p></a>
+                    <a class="list-group-item" href="{{pathFor 'uslugi'}}" name="item"><p class="list-group-item-text">Usługi</p></a>
+                    <a class="list-group-item" href="{{pathFor 'partnerzy'}}" name="item"><p class="list-group-item-text">Partnerzy</p></a>
+                    <a class="list-group-item" href="{{pathFor 'praca'}}" name="item"><p class="list-group-item-text">Praca</p></a>
+                    <a class="list-group-item" href="{{pathFor 'kontakt'}}" name="item"><p class="list-group-item-text">Kontakt</p></a>
                 </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4" style="background-color: #ffffff; height: 520px">
+            <div class="col-md-2"></div>
+            <div class="col-md-4" style="background-color: #ffffff; height: 520px; border-radius: 10px; margin-bottom: 10px">
                 {{> yield}}
             </div>
 
