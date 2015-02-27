@@ -6,7 +6,7 @@
 }
 .background {
     background: url('background.png');
-    min-height: 640px;
+    position: relative;
 }
 .fgWhite {
     color: #ffffff;
