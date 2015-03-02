@@ -1,17 +1,48 @@
+html, body, #container {
+    height: 100%;
+}
+body > #container {
+    height: auto;
+    min-height: 100%;
+}
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
+#content {
+    background-color: #ffffff;
+}
+#header {
+    background-color: #ffffff;
+}
 .oneBIbgColor {
     background-color: #75448D;
 }
 .oneBIfgColor {
     color: #75448D;
 }
-.background {
-    background: url('background.png');
+/*.background {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 
-    height: 100%;
-    width: 100%;
+}
+*/
+.background {
+    background-image: url('congruent_outline.png');
+    background-repeat: repeat;
 }
 .fgWhite {
     color: #ffffff;
+}
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    font-size: 12px;
 }
 .margin1 {
     margin: 1px;

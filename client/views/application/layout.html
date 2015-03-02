@@ -1,9 +1,9 @@
 <template name="layout">
-    <div class="container-fluid background">
+    <div class="container-fluid background" id="container">
     <header>
         {{> header}}
     </header>
-    <div class="row" style="height: 50px;"></div>
+    <div class="row" id="separatingRow" style="height: 50px;"></div>
         <div class="row">
             <div class="col-md-2 menu-padding">
                 <div class="list-group" id="item">
@@ -15,12 +15,14 @@
                 </div>
             </div>
             <div class="col-md-1"></div>
-            <div class="col-md-6" style="background-color: #ffffff; min-height: 800px">
+            <div class="col-md-6" id="content" data-role="content2">
                 {{> yield}}
             </div>
 
         </div>
+
+    </div>
+    <div class="container-fluid">
         {{> footer}}
     </div>
-
 </template>
