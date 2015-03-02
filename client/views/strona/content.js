@@ -6,10 +6,6 @@ Template.aktualnosci.helpers({
 
 });
 
-Template.uslugi.helpers({
-
-});
-
 Template.partnerzy.helpers({
 
 });

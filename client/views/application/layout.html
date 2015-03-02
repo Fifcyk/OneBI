@@ -6,12 +6,22 @@
     <div class="row" id="separatingRow" style="height: 50px;"></div>
         <div class="row">
             <div class="col-md-2 menu-padding">
-                <div class="list-group" id="item">
-                    <a class="list-group-item" href="{{pathFor 'naszePodejscie'}}" name="item"><p class="list-group-item-text">Nasze podejście</p></a>
-                    <a class="list-group-item" href="{{pathFor 'uslugi'}}" name="item"><p class="list-group-item-text">Usługi</p></a>
-                    <a class="list-group-item" href="{{pathFor 'partnerzy'}}" name="item"><p class="list-group-item-text">Partnerzy</p></a>
-                    <a class="list-group-item" href="{{pathFor 'praca'}}" name="item"><p class="list-group-item-text">Praca</p></a>
-                    <a class="list-group-item" href="{{pathFor 'kontakt'}}" name="item"><p class="list-group-item-text">Kontakt</p></a>
+                <div class="list-group">
+                    <a class="list-group-item" href="{{pathFor 'naszePodejscie'}}"><p class="list-group-item-text">Nasze podejście</p></a>
+                    <a class="list-group-item itemUslugi">
+                        <p class="list-group-item-text">Usługi</p>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{pathFor 'uslugiPrzemysl'}}">Przemysł</a></li>
+                            <li><a href="{{pathFor 'uslugiTransport'}}">Transport</a></li>
+                            <li><a href="{{pathFor 'uslugiAdministracja'}}">Administracja publiczna</a></li>
+                            <li><a href="{{pathFor 'uslugiTelekomunikacja'}}">Telekomunikacja</a></li>
+                            <li><a href="{{pathFor 'uslugiMedia'}}">Media</a></li>
+                            <li><a href="{{pathFor 'uslugiZdrowie'}}">Zdrowie</a></li>
+                        </ul>
+                    </a>
+                    <a class="list-group-item " href="{{pathFor 'partnerzy'}}" ><p class="list-group-item-text">Partnerzy</p></a>
+                    <a class="list-group-item" href="{{pathFor 'praca'}}" ><p class="list-group-item-text">Praca</p></a>
+                    <a class="list-group-item" href="{{pathFor 'kontakt'}}"><p class="list-group-item-text">Kontakt</p></a>
                 </div>
             </div>
             <div class="col-md-1"></div>

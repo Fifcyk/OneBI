@@ -57,10 +57,20 @@ body > #container {
     padding-left: 0px;
     padding-right: 0px;
 }
-.list-group{
+
+.list-group .list-group-item:hover{
+   background-color: black;
+}
+.list-group-item-text
+{
+    font-family: georgia;
+}
+.list-group-item-text:hover{
+    color: darkorchid;
+    font-size: 15px;
 }
 .list-group-item {
-
+    background-color: black;
     text-align: right;
     width: 100%;
     margin-bottom: 4px;
@@ -90,15 +100,48 @@ body > #container {
     0% { width:30%; }
     100% { width:100%; }
 }
-.list-group-item-text:hover{
-    color: purple;
-    font-size: 18px;
-}
 
 .title
 {
     color: #75448D;
 }
+
+
+.itemUslugi:hover .dropdown-menu {
+    display: block;
+}
+
+.contentUslugi ul li{
+    list-style-type: square;
+    font-size: 15px;
+}
+.dropdown-menu li:not(:first-child)
+{
+    margin-top: 2px;
+}
+.dropdown-menu li
+{
+    background-color: black;
+}
+.dropdown-menu li a{
+    font-family: georgia;
+}
+.dropdown-menu li a:hover{
+    color: darkorchid;
+    background-color: black;
+}
+.dropdown-menu{
+    padding: 0px;
+    width:100%;
+    margin-top: -18%;
+    margin-left: 100%;
+
+}
+
+
+
+
+
 
 
 
